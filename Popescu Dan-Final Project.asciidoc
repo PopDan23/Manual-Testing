@@ -1,0 +1,279 @@
+Final Project-Popescu Dan Gr 8
+
+*1.Revision table:*
+
+[width="100%",cols="19%,20%,14%,47%",options="header",]
+|===
+|Version 0.1|Date 3/4/2023 |Author Popescu Dan|Change 0.1
+|1 |3.6.2022 |Dan |Initial version
+|2 |18.6.2022 |Dan |Changes to the structure
+|3 |19.6.2022 |Dan |Final Version
+|===
+
+*2.Project description:*
+
+____
+2.1 Site description *academybugs.com*: an app that mimics an online
+shopping application for clothing and accessories for educational
+concepts and to give exercises to manual testers.
+
+2.2 Tested functionality :*The LogIn function* –create an account on the
+website for which a user has to be login to try and purchase a products.
+____
+
+*3.Test planning*
+
+3.1 People assigned to project:
+
+Project manager (PM) - Florin
+
+____
+Business analyst (BA)/Product owner (PO) - Laura
+____
+
+Development team –Marian,Elena,Antonia
+
+Testers (QAs) – Popescu Dan
+
+3.2 Necessary tools: Jira, Zephyr, GUI testing.
+
+3.3 Entry criteria:
+
+* BR1: users can view the login page and all it’s buttons (frontpage and
+design) ;
+* BR2: users can add cridentials such as: numbers and special caracters
+;
+* BR3: users can login into their account and start to explore the site;
+
+3.4 Exit criteria:
+
+____
+{empty}1. We reached the deadline
+
+{empty}2. The number of remaining bugs is low, and there are only bugs
+with low severity issues that do not impade the functionality of the
+page; 
+
+{empty}3. Reached to a bug with high severity and we need to address it
+immediately
+____
+
+*4.Test scope:*
+
+[loweralpha]
+. {blank}
++
+____
+all testing scenarios that must be covered;
+____
+. {blank}
++
+____
+types of testing used in the process;
+____
+. {blank}
++
+____
+necessary tools to do the tasks;
+____
+. {blank}
++
+____
+test implementation environment;
+____
+
+BR1:Validate the layout of the login page
+
+* Blackbox testing (positive testing, negative testing, GUI testing);
+* {blank}
++
+____
+Multiple devices: laptop, tablet, phone; multiple browsers (eg. Chrome,
+Edge, Firefox); internet; postman;
+____
+* {blank}
++
+____
+UAT/test enviroment (API).
+____
+
+BR2: Validate all fields on login page
+
+* Blackbox testing (positive testing, negative testing, GUI testing);
+* {blank}
++
+____
+Multiple devices: laptop, tablet, phone; multiple browsers (eg. Chrome,
+Edge, Firefox); internet; postman;
+____
+* {blank}
++
+____
+UAT/test enviroment (API).
+____
+
+BR3: Validate that users can login into their account
+
+* Blackbox testing (positive testing, negative testing, GUI testing);
+* {blank}
++
+____
+Multiple devices: laptop, tablet, phone; multiple browsers (eg. Chrome,
+Edge, Firefox); internet; postman;
+____
+* {blank}
++
+____
+UAT/test enviroment (API).
+____
+
+*5. Test design: _writing the test cases_*
+
+* BR1+++:+++ Validate the layout of the login page
+
+-    Jira link with the story:
+https://g8testaremanuala.atlassian.net/jira/software/c/projects/PDF/boards/11?modal=detail&selectedIssue=PDF-1
+
+-Jira link for all the test cases created for the story”
+
+{empty}1)
+https://g8testaremanuala.atlassian.net/jira/software/c/projects/PDF/boards/11?modal=detail&selectedIssue=PDF-2
+
+{empty}2)
+https://g8testaremanuala.atlassian.net/jira/software/c/projects/PDF/boards/11?modal=detail&selectedIssue=PDF-3
+
+{empty}3)
+https://g8testaremanuala.atlassian.net/jira/software/c/projects/PDF/boards/11?modal=detail&selectedIssue=PDF-4
+
+* BR2: Validate all fields:
+
+* Jira link with the story:
+
+https://g8testaremanuala.atlassian.net/jira/software/c/projects/PDF/boards/11?modal=detail&selectedIssue=PDF-5
+
+-Jira link for all the test cases created for the story:
+
+{empty}1)
+https://g8testaremanuala.atlassian.net/jira/software/c/projects/PDF/boards/11?modal=detail&selectedIssue=PDF-6
+
+* BR3: Validate that users can login into their account and start to
+explore the site
+
+* Jira link with the story:
+
+https://g8testaremanuala.atlassian.net/jira/software/c/projects/PDF/boards/11?modal=detail&selectedIssue=PDF-7
+
+-Jira link for all the test cases created for the story:
+
+{empty}1)
+https://g8testaremanuala.atlassian.net/jira/software/c/projects/PDF/boards/11?modal=detail&selectedIssue=PDF-8
+
+{empty}2)
+https://g8testaremanuala.atlassian.net/jira/software/c/projects/PDF/boards/11?modal=detail&selectedIssue=PDF-9
+
+{empty}3)
+https://g8testaremanuala.atlassian.net/jira/software/c/projects/PDF/boards/11?modal=detail&selectedIssue=PDF-10
+
+{empty}4)
+https://g8testaremanuala.atlassian.net/jira/software/c/projects/PDF/boards/11?modal=detail&selectedIssue=PDF-11
+
+{empty}5)
+https://g8testaremanuala.atlassian.net/jira/software/c/projects/PDF/boards/11?modal=detail&selectedIssue=PDF-12
+
+{empty}6)
+https://g8testaremanuala.atlassian.net/jira/software/c/projects/PDF/boards/11?modal=detail&selectedIssue=PDF-13
+
+{empty}7)
+https://g8testaremanuala.atlassian.net/jira/software/c/projects/PDF/boards/11?modal=detail&selectedIssue=PDF-14
+
+{empty}8)
+https://g8testaremanuala.atlassian.net/jira/software/c/projects/PDF/boards/11?modal=detail&selectedIssue=PDF-15
+
+{empty}9)
+https://g8testaremanuala.atlassian.net/jira/software/c/projects/PDF/boards/11?modal=detail&selectedIssue=PDF-16
+
+*6.Test execution: _executing the test cases_*
+
+____
+Test cycle link:
+https://g8testaremanuala.atlassian.net/plugins/servlet/ac/com.thed.zephyr.je/general-executions-enav?project.id=10010&project.key=PDF#!view=list&offset=0&zql=project%20%3D%20"Popescu%20Danut-FiNAL"%20AND%20fixVersion%20%3D%20"Unscheduled"%20AND%20cycleName%20%3D%20"FINAL[https://g8testaremanuala.atlassian.net/plugins/servlet/ac/com.thed.zephyr.je/general-executions-enav?project.id=10010&project.key=PDF#!view=list&offset=0&zql=project%20%3D%20"Popescu%20Danut-FiNAL"%20AND%20fixVersion%20%3D%20"Unscheduled"%20AND%20cycleName%20%3D%20"FINAL]"
+____
+
+image:../.idea/Images/image5.png[image,width=675,height=349]
+Test summary:
+
+https://g8testaremanuala.atlassian.net/plugins/servlet/ac/com.thed.zephyr.je/tests-test-summary-nav-top-page-adg?project.key=PDF&project.id=10010
+
+image:../.idea/Images/image2.png[image,width=614,height=282]
+
+Test Metrics:
+
+https://g8testaremanuala.atlassian.net/plugins/servlet/ac/com.thed.zephyr.je/general-test-metrics?project.key=PDF&project.id=10010
+
+image:../.idea/Images/image3.png[image,width=657,height=333]
+
+List of bugs:
+
+[arabic]
+. https://g8testaremanuala.atlassian.net/jira/software/c/projects/PDF/boards/11?modal=detail&selectedIssue=PDF-17
+. https://g8testaremanuala.atlassian.net/jira/software/c/projects/PDF/boards/11?modal=detail&selectedIssue=PDF-18
+. https://g8testaremanuala.atlassian.net/jira/software/c/projects/PDF/boards/11?modal=detail&selectedIssue=PDF-19
+. https://g8testaremanuala.atlassian.net/jira/software/c/projects/PDF/boards/11?modal=detail&selectedIssue=PDF-20
+. https://g8testaremanuala.atlassian.net/jira/software/c/projects/PDF/boards/11?modal=detail&selectedIssue=PDF-21
+
+image:../.idea/Images/image4.png[image,width=676,height=249]
+
+*+++7.Test completion +++*
+
+* {blank}
++
+____
+Date for ending testing: 19.06.2022 
+____
+* {blank}
++
+____
+Exit criteria: all the test cases were concluded;
+____
+* {blank}
++
+____
+Implementation: In order to test the LogIn Function there were a set of
+preconditions necessary for testing the capabilities for the correct
+function and are as follow:
+____
+
+[loweralpha]
+. Create Account Function was used ;
+. An Admin Account has been created with a user and password;
+. User cridentials:
+
+* email: mariabianca@yahoo.com ;
+* password: 1234567890 ;
+
+[loweralpha, start=4]
+. ”Forgot Your Password?” and “Search” feature were not being tested
+this time around.
+
+*+++8.Testing report+++*
+
+____
+To: PM  
+
+CC:  entire team
+
+Content: 
+
+Hello everyone, 
+____
+
+I am pleased to inform you that we have successfully released to
+production the “LogIn” feature of academybugs.com on June 19th. 
+
+Please see the attached Testing Report for further details.
+
+If there are any concerns, please feel free to reach out to me.
+
+Regards,
+
+Popescu Dan
